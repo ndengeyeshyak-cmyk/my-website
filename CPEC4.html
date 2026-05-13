@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+  <title>CPEC Saint Babeth TSS</title>
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background:#f4f4f4;
+      color:#333;
+    }
+
+    header{
+      background:green;
+      color:white;
+      padding:15px 0;
+      position:sticky;
+      top:0;
+      z-index:1000;
+    }
+
+    nav{
+      width:90%;
+      margin:auto;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+    }
+
+    nav h1{
+      font-size:28px;
+    }
+
+    nav ul{
+      display:flex;
+      list-style:none;
+    }
+
+    nav ul li{
+      margin-left:20px;
+    }
+
+    nav ul li a{
+      color:white;
+      text-decoration:none;
+      font-weight:bold;
+      transition:0.3s;
+    }
+
+    nav ul li a:hover{
+      color:gold;
+    }
+
+    .hero{
+      height:90vhover;    background-size:cover;
+      background-position:center;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+      color:white;
+    }
+
+    .hero-content{
+      background:rgba(0,0,0,0.6);
+      padding:40px;
+      border-radius:10px;
+    }
+
+    .hero h2{
+      font-size:50px;
+      margin-bottom:20px;
+    }
+
+    .hero p{
+      font-size:20px;
+      margin-bottom:20px;
+    }
+
+    .btn{
+      padding:15px 30px;
+      border:none;
+      background:blueviolet;
+      color:#003366;
+      font-size:18px;
+      font-weight:bold;
+      border-radius:8px;
+      cursor:pointer;
+      transition:0.3s;
+    }
+
+    .btn:hover{
+      background:blueviolet;
+      transform:scale(1.05);
+    }
+
+    section{
+      padding:60px 10%;
+    }
+
+    .title{
+      text-align:center;
+      font-size:35px;
+      color:#003366;
+      margin-bottom:40px;
+    }
+
+    .cards{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:25px;
+    }
+
+    .card{
+      background:white;
+      border-radius:10px;
+      overflow:hidden;
+      box-shadow:0 4px 10px rgba(0,0,0,0.1);
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-10px);
+    }
+
+    .card img{
+      width:100%;
+      height:220px;
+      object-fit:cover;
+    }
+
+    .card-content{
+      padding:20px;
+    }
+
+    .card-content h3{
+      margin-bottom:10px;
+      color:#003366;
+    }
+
+    .about{
+      background:white;
+      padding:40px;
+      border-radius:10px;
+      box-shadow:0 4px 10px rgba(0,0,0,0.1);
+      text-align:center;
+      line-height:1.8;
+    }
+
+    .contact-form{
+      background:white;
+      padding:30px;
+      border-radius:10px;
+      box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .contact-form input,
+    .contact-form textarea{
+      width:100%;
+      padding:15px;
+      margin-bottom:15px;
+      border:1px solid #ccc;
+      border-radius:8px;
+    }
+
+    footer{
+      background:#003366;
+      color:white;
+      text-align:center;
+      padding:20px;
+    }
+
+    @media(max-width:768px){
+
+      nav{
+        flex-direction:column;
+      }
+
+      nav ul{
+        margin-top:15px;
+        flex-wrap:wrap;
+        justify-content:center;
+      }
+
+      .hero h2{
+        font-size:35px;
+      }
+
+    }
+    .footer{
+      background:#222;
+      color: white;
+  text-align: center;
+  padding: 100px;
+}
+
+.social-icons a {
+  margin: 10px;
+  font-size: 24px;
+  color: white;
+}
+
+.social-icons a:hover {
+  opacity: 0.7;
+} 
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <nav>
+    <h1>CPEC Saint Babeth TSS</h1>
+
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#departments">Departments</a></li>
+      <li><a href="#workshops">Workshops</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- HERO SECTION -->
+
+<section class="hero" id="home">
+
+  <div class="hero-content">
+    <h2>Welcome to CPEC Saint Babeth TSS</h2>
+<img src="weeeeeeeeeeeeeee.jpg">
+    <p>
+      Excellence in Education, Technology and Innovation
+    </p>
+
+    <button class="btn" onclick="applyNow()">
+      APPLY NOW
+    </button>
+  </div>
+
+</section>
+
+<!-- DEPARTMENTS -->
+
+<section id="departments">
+
+  <h2 class="title">Our Departments</h2>
+
+  <div class="cards">
+
+    <div class="card">
+      <img src=>
+
+      <div class="card-content">
+        <h3>Multimedia</h3>
+
+        <p>
+          Learn Graphic Design, Video Editing, Animation,
+          Photography and Digital Media Production.
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="desktop.ini">
+
+      <div class="card-content">
+        <h3>Software Development</h3>
+
+        <p>
+          Learn Programming, Web Development,
+          Database and Mobile App Development.
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=800&q=80">
+
+      <div class="card-content">
+        <h3>O-Level</h3>
+
+        <p>
+          Strong General Education preparing students
+          for higher learning and professional careers.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- WORKSHOPS -->
+
+<section id="workshops">
+
+  <h2 class="title">School Workshops</h2>
+
+  <div class="cards">
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80">
+
+      <div class="card-content">
+        <h3>ICT Laboratory</h3>
+
+        <p>
+          Modern Computer Labs for practical ICT training.
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80">
+
+      <div class="card-content">
+        <h3>Programming Workshop</h3>
+
+        <p>
+          Coding practice sessions and software projects.
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=800&q=80">
+
+      <div class="card-content">
+        <h3>Multimedia Studio</h3>
+
+        <p>
+          Creative studio for photography, editing and media.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section id="about">
+
+  <h2 class="title">About Us</h2>
+
+  <div class="about">
+<imag src="w
+    <p>
+      CPEC Saint Babeth TSS is a Technical Secondary School
+      focused on quality education and practical skills.
+      We provide excellent training in Multimedia,
+      Software Development and O-Level Education.
+    </p>
+
+  </div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+  <h2 class="title">Contact Us</h2>
+
+  <div class="contact-form">
+
+    <input type="text" placeholder="Your Name">
+
+    <input type="email" placeholder="Your Email">
+
+    <textarea rows="5" placeholder="Your Message"></textarea>
+
+    <button class="btn">
+      Send Message
+    </button>
+
+  </div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+  <p>
+    © 2026 CPEC Saint Babeth TSS | All Rights Reserved
+  </p>
+<p> 0788556028,  +250782539652</p>
+<div class="social-icons">
+    <a href="mailto:youremail@gmail.com"><i class="fas fa-envelope"></i></a>  <h2>cpecsaintbabeth@gmail.com<h2
+    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+  </div> 
+</footer>
+
+<script>
+
+  function applyNow(){
+
+    alert("Welcome to CPEC Saint Babeth TSS Admissions!");
+
+  }
+
+</script>
+
+</body>
+</html>
